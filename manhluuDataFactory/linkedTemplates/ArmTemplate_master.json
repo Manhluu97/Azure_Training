@@ -11,13 +11,13 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ConnectionManhDB'"
 		},
-		"ConnectionPostgres_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'ConnectionPostgres'"
-		},
 		"Connection_manhluudatalake_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'Connection_manhluudatalake'"
+		},
+		"ConnectionPostgres_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ConnectionPostgres'"
 		},
 		"Connection_manhluudatalake_properties_typeProperties_url": {
 			"type": "string",
