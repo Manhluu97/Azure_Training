@@ -8,10 +8,10 @@
 		"ConnectionManhDB_connectionString": {
 			"value": ""
 		},
-		"Connection_manhluudatalake_accountKey": {
+		"ConnectionPostgres_connectionString": {
 			"value": ""
 		},
-		"ConnectionPostgres_connectionString": {
+		"Connection_manhluudatalake_accountKey": {
 			"value": ""
 		},
 		"Connection_manhluudatalake_properties_typeProperties_url": {
