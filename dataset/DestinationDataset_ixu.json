@@ -1,0 +1,20 @@
+{
+	"name": "DestinationDataset_ixu",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Connection_manhluudatalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dbtest",
+				"fileSystem": "worldeconomic"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
