@@ -1,0 +1,9 @@
+{
+	"name": "manhluuDataFactory",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f623660e-6458-4a2b-9e9c-9609e7b275da",
+		"tenantId": "5dcaa8c0-2531-41bd-87aa-5d1871da8069"
+	}
+}
