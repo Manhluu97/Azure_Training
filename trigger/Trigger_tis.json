@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_tis",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyFromPostgresToDatalake",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2022-10-05T08:15:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
