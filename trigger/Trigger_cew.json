@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_cew",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyFromPostgrestoDatalake",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 30,
+				"startTime": "2022-10-05T04:55:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
